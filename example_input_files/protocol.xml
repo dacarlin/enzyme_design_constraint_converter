@@ -1,0 +1,12 @@
+<ROSETTASCRIPTS>
+<MOVERS>
+  <AddOrRemoveMatchCsts cst_instruction="add_new" name="add_match_constraints" />
+  <CstInfoMover name="constraint_info" />
+</MOVERS>
+<APPLY_TO_POSE>
+</APPLY_TO_POSE>
+<PROTOCOLS>
+  <Add mover="add_match_constraints"/>
+  <Add mover="constraint_info"/>
+</PROTOCOLS>
+</ROSETTASCRIPTS>

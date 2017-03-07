@@ -1,0 +1,15 @@
+# chemical restraints for pNPG hydrolysis by BglB
+
+# pNPG (residue 446) and acid/base E164
+AtomPair O2 446 OE2 164 HARMONIC 1.8 0.18
+Angle O2 446 OE2 164 CD 164 HARMONIC 0 10
+Dihedral O2 446 OE2 164 CD 164 CG 164 HARMONIC 0 10
+
+# pNPG and nucleophile E353
+AtomPair C5 446 OE2 353 HARMONIC 2.0 0.20
+Angle O2 446 C5 446 OE2 353 HARMONIC 0 10
+Angle C5 446 OE2 353 CD 353 HARMONIC 0 10
+Dihedral C5 446 OE2 353 CD 353 CG 353 HARMONIC 0 10
+
+# nucleophile E353 and Y295
+AtomPair OE2 353 OH 295 HARMONIC 3.0 0.30

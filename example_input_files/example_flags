@@ -1,0 +1,11 @@
+# change for your protein and ligand 
+-s bglb.pdb
+-enzdes:cstfile pNPG.enzdes.cst
+-extra_res_fa pNPG.params
+
+# do not change
+-parser:protocol protocol.xml 
+-run:preserve_header 
+-no_output 
+-mute all 
+-unmute protocols.simple_moves.CstInfoMover
