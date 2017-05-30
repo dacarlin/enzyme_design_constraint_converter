@@ -12,7 +12,7 @@ To use these scripts, you need:
 
 ## Run the example 
 
-Change into `example_run`, edit `sub.sh` to point to your local copy of Rosetta, and run `bash sub.sh`. 
+Change into `example_run`, edit `sub.sh` to point to your local copy of Rosetta, and run `bash sub.sh`. The output constraint file is called `example_output.cst`. 
 
 ## Instructions for use  
 
@@ -26,4 +26,4 @@ Run the tool with
 bash sub.sh
 ``` 
 
-and your output files will appear in your working directory. 
+and your output files will appear in your working directory. The output constraint file is called `example_output.cst` by default, but you can edit this in `protocol.xml`. 
