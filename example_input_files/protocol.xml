@@ -1,7 +1,7 @@
 <ROSETTASCRIPTS>
 <MOVERS>
   <AddOrRemoveMatchCsts cst_instruction="add_new" name="add_match_constraints" />
-  <CstInfoMover name="constraint_info" />
+  <CstInfoMover name="constraint_info" dump_cst_file="dump.cst" />
 </MOVERS>
 <APPLY_TO_POSE>
 </APPLY_TO_POSE>
